@@ -15,6 +15,8 @@ gem 'sass-rails', '>= 6'
 gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'graphql', '1.11.6'
+gem 'bcrypt', '~> 3.1.13'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
@@ -37,3 +39,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'graphiql-rails', '1.7.0', group: :development
